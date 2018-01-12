@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\product.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\contact.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\portfolio.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\portfolio.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\companyapp.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\companyapp.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_service.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\dialog_service.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_product.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\dialog_product.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_service.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\row_service.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_product.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\row_product.xml"
+    },
+    {
+        "merged": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service.xml",
+        "source": "E:\\UIN SGD\\Semester 7\\Mobile Programming\\AndroidCompanyProfile-master\\app\\src\\main\\res\\layout\\service.xml"
+    }
+]

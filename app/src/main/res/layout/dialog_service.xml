@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip">
+
+            <ImageView
+                android:id="@+id/ImageService"
+                android:layout_width="fill_parent"
+                android:layout_height="200dip"
+                android:background="@drawable/main_image"
+                android:contentDescription="@+id/ImageService" />
+
+            <TextView
+                android:id="@+id/txtCategory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/cat"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/separator1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey"
+                android:contentDescription="@+id/separator1" />
+
+            <TextView
+                android:id="@+id/txt_cat_service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/txt_grey"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTitleService"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/separator2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey"
+                android:contentDescription="@+id/separator2" />
+
+            <TextView
+                android:id="@+id/txt_title_service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/txt_grey"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDescService"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/desc"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/separator3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey"
+                android:contentDescription="@+id/separator3" />
+
+            <TextView
+                android:id="@+id/txt_desc_service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/txt_grey"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnClose"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_dialog"
+                android:padding="10dip"
+                android:text="@string/close"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

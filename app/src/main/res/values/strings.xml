@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">UIN Bandung</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="title_activity_company_app">UIN Bandung</string>
+    <string name="exit">Keluar</string>
+    <string name="main">Menu Utama</string>
+    <string name="home">Beranda</string>
+    <string name="about">Profil Universitas</string>
+    <string name="portfolio">Fakultas dan Gedung</string>
+    <string name="product">Fakultas</string>
+    <string name="service">Gedung</string>
+    <string name="contact">Kontak</string>
+    <string name="visi">Visi</string>
+    <string name="misi">Misi</string>
+    <string name="address">Alamat</string>
+    <string name="email">Email</string>
+    <string name="web">Website</string>
+    <string name="map">Lokasi Kami</string>
+    <string name="loc">Google Maps</string>
+    <string name="social">Follow Us</string>
+    <string name="fb">Like us on Facebook</string>
+    <string name="twit">Follow us on Twitter</string>
+    <string name="link">Follow us on Linkedin</string>
+    <string name="you">Subscribe us on Youtube</string>
+    <string name="copy">Copyright 2017, AnkAb Studio</string>
+    <string name="txt_address">Jl. AH Nasution No. 105 Bandung dan Jl. Cimencrang, Cimenerang, Panyileukan</string>
+    <string name="txt_contact">022-7800525</string>
+    <string name="txt_email">contact.uin@uinsgd.ac.id</string>
+    <string name="txt_vision">Menjadi Universitas Islam Negeri yang unggul dan kompetitif berbasis wahyu memandu ilmu dalam bingkai akhlak karimah di ASEAN tahun 2025.</string>
+    <string name="txt_mision">1. Menyelenggarakan dan mengelola pendidikan tinggi yang profesional, akuntabel, dan berdaya saing di tingkat nasional dan ASEAN dalam rangka memperkuat pembangunan Nasional.</string>
+    <string name="txt_about">Sejarah berdirinya Universitas Islam Negeri (UIN) Sunan Gunung Djati Bandung tidak lepas dari IAIN Sunan Gunung Djati Bandung karena UIN merupakan kelanjutan dan pengembangan dari IAIN SGD Bandung.IAIN SGD Bandung didirikan pada tanggal 8 April 1968 M bertepatan dengan 10 Muharram 1388 H berdasarkan Keputusan Menteri Agama RI Nomor 56 Tahun 1968.
+		Kehadiran IAIN Sunan Gunung Djati Bandung merupakan hasil perjuangan para tokoh umat Islam Jawa Barat.</string>
+    <string name="txt_official">http://www.uinsgd.ac.id</string>
+    <string name="title">Detail</string>
+    <string name="desc">Tujuan</string>
+    <string name="cat">Nama</string>
+    <string name="close">Tutup</string>
+    <string name="back">Kembali</string>
+    <string name="txt_mision1">2. Menyelenggarakan proses pembelajaran, penelitian dan kajian ilmiah dengan bingkai akhlak karimah berbasis wahyu memandu ilmu untuk mengembangkan pengetahuan dan teknologi.
+</string>
+    <string name="txt_mision2">3. Menyelenggarakan pengabdian untuk mengembangkan dan memberdayakan masyarakat menuju tatanan masyarakat madani yang demokratis dan berkeadilan.
+</string>
+    <string name="txt_mision3">4. Menyelenggarakan tri darma perguruan tinggi yang berorientasi pada pembentukan jiwa entrepreneurship di kalangan civitas akademika.</string>
+    <string name="txt_about1">Dimulai pada tahun 1967, sejumlah tokoh masyarakat, alim ulama, dan cendekiawan Muslim Jawa Barat yang diprakarsai oleh K. H. Anwar Musaddad, K.H. A. Muiz, K.H. R. Sudjai, dan Arthata dengan persetujuan KDH Jawa Barat, mereka membentuk Panitia Perizinan Pendirian IAIN di Jawa Barat.</string>
+    <string name="txt_about2">Panitia tersebut kemudian disahkan oleh Menteri Agama RI dengan SK-MA No. 128 Tahun 1967. Berdasarkan Peraturan Presiden RI No. 57 Tahun 2005, tanggal 10 Oktober 2005, bertepatan dengan tanggal 6 Ramadhan 1426 H, IAIN berubah statusnya menjadi UIN Sunan Gunung Djati Bandung.</string>
+</resources>

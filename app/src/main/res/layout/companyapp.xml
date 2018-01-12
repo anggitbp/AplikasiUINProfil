@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg">
+
+    <RelativeLayout
+        android:id="@+id/lytTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_title"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/logo"
+            android:contentDescription="@+id/imgLogo" />
+
+        <TextView
+            android:id="@+id/lblJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/imgLogo"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/lytScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/lytBottom"
+        android:layout_below="@+id/lytTitle"
+        android:fadeScrollbars="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:padding="10dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="15dip"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="10dip">
+
+                    <ImageView
+                        android:id="@+id/imgLogoCompany"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dip"
+                        android:background="@drawable/main_image"
+                        android:contentDescription="@+id/imgLogoCompany" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtMain"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/main"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnAbout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/about"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/about"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/separator1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/grey"
+                    android:contentDescription="@+id/separator1" />
+
+                <Button
+                    android:id="@+id/btnPort"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/port"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/portfolio"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/separator2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/grey"
+                    android:contentDescription="@+id/separator2" />
+
+                <Button
+                    android:id="@+id/btnContact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/contact"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/contact"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/lytBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_title"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/lblBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/copy"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

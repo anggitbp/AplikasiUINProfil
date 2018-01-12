@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg">
+
+    <RelativeLayout
+        android:id="@+id/lytTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_title"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/logo"
+            android:contentDescription="@+id/imgLogo" />
+
+        <TextView
+            android:id="@+id/lblJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/imgLogo"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back"
+            android:drawableLeft="@drawable/arrow_l"
+            android:drawablePadding="3dip"
+            android:text="@string/back"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/lytScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/lytBottom"
+        android:layout_below="@+id/lytTitle"
+        android:fadeScrollbars="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:padding="10dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <!-- For Address -->
+                <TextView
+                    android:id="@+id/txtMainAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/address"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/address"
+                    android:drawablePadding="10dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/txt_address"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooterAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+                <!-- End Address -->
+
+                <!-- For Contact -->
+                <TextView
+                    android:id="@+id/txtMainContact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/contact"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnContact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/tel"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/txt_contact"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooterContact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+
+                <!-- End Contact -->
+
+                <!-- For Email -->
+                <TextView
+                    android:id="@+id/txtMainEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/email"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/contact"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/txt_email"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooterEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+
+                <!-- End Email -->
+
+                <!-- For Official Website -->
+                <TextView
+                    android:id="@+id/txtMainWeb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/web"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnWeb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/web"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/txt_official"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooterWeb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+
+                <!-- End Official Website -->
+
+                <!-- For Social Media -->
+                <TextView
+                    android:id="@+id/txtMainSocial"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/social"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnFB"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/fb"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/fb"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/separator1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/grey"
+                    android:contentDescription="@+id/separator1" />
+
+                <Button
+                    android:id="@+id/btnTwitter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/twit"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/twit"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/separator2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/grey"
+                    android:contentDescription="@+id/separator2" />
+
+                <Button
+                    android:id="@+id/btnLinkedin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/in"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/link"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/separator3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/grey"
+                    android:contentDescription="@+id/separator3" />
+
+                <Button
+                    android:id="@+id/btnYoutube"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/you"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/you"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooterSocial"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+                <!-- End Social Media -->
+
+                <!-- For Locations -->
+                <TextView
+                    android:id="@+id/txtMainLoc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/bg_list"
+                    android:gravity="center"
+                    android:text="@string/map"
+                    android:textColor="@color/white"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLoc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_button"
+                    android:drawableLeft="@drawable/map"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/loc"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFooterLoc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@drawable/bg_bottom" />
+
+                <!-- End Locations-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/lytBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_title"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/lblBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/copy"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>
